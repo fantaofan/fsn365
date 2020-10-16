@@ -1,0 +1,85 @@
+.home-box {
+    width: 86%;
+    margin: 0 auto;
+    padding: 20px 0;
+
+    .home-search {
+        padding: 20px;
+        border-radius: 10px;
+        background-image: linear-gradient(150deg, #19a0ff, #2d1582);
+        background-repeat: repeat-x;
+
+        p {
+            color: #fff;
+        }
+
+        .home-btn {
+            width: 133px;
+            height: 55px;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .home-input-box {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .home-selebox {
+            position: relative;
+        }
+
+        .home-show-box {
+            width: 130px;
+            text-align: center;
+            position: absolute;
+            top: 20px;
+            background: white;
+            border: 1px solid #9f9f9f;
+            border-radius: 3px;
+            z-index: 10;
+            cursor: pointer;
+
+            div {
+                padding: 5px 0;
+            }
+
+            div:hover {
+                background: #9f9f9f;
+            }
+        }
+
+        .home-show {
+            display: block;
+        }
+
+        .home-onshow {
+            display: none;
+        }
+
+        .home-input {
+            // width: calc(100%-135px);
+            width: calc(100% - 135px);
+            display: flex;
+
+
+            input {
+                width: calc(100% - 50px);
+                height: 50px;
+                outline: none;
+                padding: 0 10px;
+                font-size: 18px;
+            }
+
+            div {
+                width: 60px;
+                height: 53px;
+                line-height: 53px;
+                background: rgb(52, 152, 219);
+                text-align: center;
+            }
+
+        }
+    }
+
+}
